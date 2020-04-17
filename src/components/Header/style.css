@@ -127,7 +127,8 @@
 }
 
 .select-search__options {
-    list-style: none;
+    list-style-type: none;
+    padding: 0;
 }
 
 .select-search__row:not(:first-child) {

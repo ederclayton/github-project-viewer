@@ -4,7 +4,10 @@ import './style.css';
 const ProjectCard = (props) => {
   return (
     <div className="project-card">
-      <img src={props.item.owner.avatar_url} alt="profile-img"/>
+      <div className="project-card-footer">
+        <img src={props.item.owner.avatar_url} alt="profile-img"/>
+      </div>
+      
       <div className="project-card-info">
         <p className="title">{props.item.name}</p>
         <p><b>Owner:</b> {props.item.owner.login}</p>
@@ -16,6 +19,7 @@ const ProjectCard = (props) => {
             className="btn btn-secondary center" 
             href={props.item.html_url} 
             role="button"
+            rel="noopener noreferrer"
             target="_blank">
               Visit the Project
           </a>

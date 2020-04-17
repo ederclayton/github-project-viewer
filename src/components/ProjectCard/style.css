@@ -5,10 +5,6 @@
   margin-bottom: 20px;
 }
 
-.project-card img {
-  width: 100%;
-}
-
 .project-card-info {
   padding: 10px;
   line-height: 1.0;
@@ -25,4 +21,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.project-card img {
+  width: 100%;
 }
