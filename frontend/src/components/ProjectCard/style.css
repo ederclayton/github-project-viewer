@@ -1,0 +1,28 @@
+.project-card {
+  background-color: white;
+  width: 260px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.project-card-info {
+  padding: 10px;
+  line-height: 1.0;
+}
+
+.project-card-info .title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  height: 40px;
+}
+
+.project-card-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
